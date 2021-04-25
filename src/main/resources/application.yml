@@ -1,0 +1,17 @@
+logging:
+  level:
+    ROOT: INFO
+    io.github.cloudintheking.jt809: INFO
+spring:
+  rabbitmq:
+    addresses:
+    host: 192.168.31.13
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirm-type: CORRELATED
+    publisher-returns: true
+    template:
+      mandatory: true
+
+
